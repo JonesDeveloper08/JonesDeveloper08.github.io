@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gjdev</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff; /* White text */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #24292e;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a.active {
+            font-weight: bold;
+        }
+
+        .main-content {
+            padding: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            width: 33.33%; /* Three columns on large screens */
+            padding: 0 10px;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+        }
+
+        article h2 {
+            color: #333;
+        }
+
+        article p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .read-more {
+            display: inline-block;
+            background-color: #24292e;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #1c1f22;
+        }
+
+        footer {
+            background-color: #24292e;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        
+        footer:hover {
+            background-color: #1c1f22;
+        }
+        
+        .top-bar a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 10px;
+          font-size: 16px;
+          transition: color 0.3s ease;
+        }
+        
+        .top-bar a:hover {
+          color: #ffcc00;
+        }
+        
+        .top-bar {
+          background-color: #121212;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        .slidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #24292e; /* Same color as header */
+          z-index: 999;
+          display: none;
+        }
+        
+        .slidebar-content {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%; /* Modify to occupy full width */
+          height: 100%; /* Modify to occupy full height */
+          background-color: #24292e; /* Same color as header */
+          overflow-y: auto;
+        }
+        
+        .slidebar-close {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          cursor: pointer;
+        }
+
+        /* Added "corpo" class for black text */
+        .corpo {
+            color: #000; /* Black text */
+        }
+
+        /* Style for About Me section */
+        .about-me {
+            display: flex;
+            align-items: center;
+        }
+
+        .about-me-content {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .about-me img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* CSS to set background color of table cells */
+        table td {
+            background-color: #fff; /* White background */
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+    <div class="top-bar">
+        <a class="logo" href="#">onlysiteme</a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#" class="slidebar-toggle">Open Slidebar</a>
+        </div>
+    </div>
+
+    <div class="slidebar" id="slidebar">
+        <div class="slidebar-content">
+            <!-- Slidebar content here -->
+            <h2>Slidebar Content</h2>
+            <p>Example content</p>
+        </div>
+        <span class="slidebar-close">X</span>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>United Security of Developers</h1>
+            <h4>gjdev</h4>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content corpo">
+        <div class="container">
+                <h1>About Us</h1>
+                <p>United Security of Developers (USD) is the comprehensive solution for managing the security of your websites. Developed by [Your Company Name], USD offers a range of essential features to ensure the protection and stability of your online projects.
+
+Global Login: With global login, you can securely and centrally access all your websites and their official profiles.
+
+Website/Server Status Monitoring: Keep track of the status of your websites and associated servers, receiving real-time notifications about any issues or anomalies.
+
+With USD, you'll have the peace of mind knowing that your websites are protected and closely monitored, allowing you to focus on your core activities without worrying about online security.
+
+</p>
+
+<h1>Services</h1>
+
+<p>Welcome to United Security of Developers (USD), your comprehensive solution for website security and management.
+
+In an increasingly complex and threatening digital world, protecting your websites is of paramount importance. That's why we created USD: to provide developers and website owners with a reliable and powerful tool to protect and manage their online projects.
+
+With USD, you'll have access to a range of services and features designed to simplify the management of your website security. From centralized login management to real-time monitoring of your sites and servers, USD gives you the tools you need to keep your online projects safe and protected from digital threats.
+
+We're here to help you protect your online investments and ensure the continuity of your digital activities. Join us on United Security of Developers and take control of your website security.
+
+</p>
+
+<h2>Status</h2>
+
+<p>In an ever-evolving online world, it's crucial for developers and website administrators to always be aware of the operational status of their sites and servers. That's where United Security of Developers (USD) comes in.
+
+USD offers a powerful website and server status monitoring service, ensuring that you're always informed about the performance and availability of your online projects. With our real-time monitoring system, you can promptly identify and resolve any issues, ensuring uninterrupted operational continuity for your users.
+
+Our monitoring service provides detailed information about the operational status of your websites and servers, including performance data, availability, and the presence of any issues or anomalies. You'll receive immediate notifications in case of critical issues, allowing you to intervene promptly to resolve issues before they can compromise user experience.
+
+With USD, you can rest assured knowing that your websites and servers are closely monitored 24/7, ensuring maximum availability and security for your online projects.
+
+</p>
+
+<h2>Login</h2>
+
+<p>Login is the gateway to the digital world, and secure and intuitive management is essential for any developer or website owner. With United Security of Developers (USD), we offer you a complete solution for global login, making access to your websites easier and safer than ever.
+
+USD allows you to centrally access all your websites and official profiles with a single authentication. With our global login system, you no longer have to remember a series of complicated passwords for each individual site. With just one account, you'll have instant access to all your websites, saving time and simplifying your online experience.
+
+Security is our top priority, which is why we've implemented the latest protection technologies to ensure that your access is always secure. With USD, you can rely on secure and reliable login, protecting your sensitive data and ensuring the privacy of your users.
+
+Join us on United Security of Developers and discover the power of global login to simplify the management of your websites and improve the security of your online presence.
+
+</p>
+
+<h1>How to Use?</h1>
+<h2>USD-L Login</h2>
+<p>Welcome to the usage guide for the United Security of Developers (USD) login page! Follow these simple steps to securely access your websites using our global login system.
+
+1. Accessing the Login Page:
+
+Open your preferred web browser and go to the login page, usually accessible at [usd.gjdev.it/login.html].
+2. Entering Credentials:
+
+On the login page, enter your username and password in the respective fields. Make sure to enter your credentials correctly to avoid login errors.
+ </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gabriel Jones. All rights reserved. <a href="admin.html">Go to the admin page</a> | <a href="https://dev-gabriel-jones.pantheonsite.io/">Go to the global site</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const slidebar = document.querySelector(".slidebar");
+            const slidebarContent = document.querySelector(".slidebar-content");
+            const slidebarClose = document.querySelector(".slidebar-close");
+            const slidebarToggle = document.querySelector(".slidebar-toggle");
+
+            slidebarToggle.addEventListener("click", function() {
+                slidebar.style.display = "block";
+            });
+
+            slidebarClose.addEventListener("click", function() {
+                slidebar.style.display = "none";
+            });
+
+            slidebar.addEventListener("click", function(event) {
+                if (event.target === slidebar) {
+                    slidebar.style.display = "none";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
