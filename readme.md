@@ -1,7 +1,7 @@
 # Welcome in gjdev
 
 ### Uf dev : United Force of Developers
-UF dev è un servizio di gjdev creato per gli sviluppatori di gjdev, che condivide componenti, le basi di html e le basi di css, per l'utilizzo di questo servizio è obbligatorio l'accesso con le credenziali ufficiali condivise da un'amministratore.
+UF dev è un servizio di gjdev creato per gli sviluppatori di gjdev, che condivide componenti, sistemi di login avanzati (pal), le basi di html e le basi di css, per l'utilizzo di questo servizio è obbligatorio l'accesso con le credenziali ufficiali condivise da un'amministratore.
 ### Developers
 La sezione dei developers si occupa di fornire le documentazioni e componenti pubblici con i riferimenti alle altre pagine pubbliche.
 ### legal
@@ -21,5 +21,7 @@ Usd si occupa di tantissime code in gjdev ma le più importanti sono :
 . Fornire un punto di accesso riservato
 . Controllo domini
 . Controllo della pagina globale
+### D.I.C. : The Department of Information Coding (D.I.C.)
+The Department of Information Coding (D.I.C.) is dedicated to excellence in ensuring the security, efficiency, and innovation of information coding at a national level.
 
 Questi e altri servizi appartenenti a gjdev, per la sicurezza e la condivisione di risorse private e non. Potenzia la tua creatività in gjdev!!
